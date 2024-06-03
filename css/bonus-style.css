@@ -4,8 +4,8 @@ body {
 }
 
 main {
-    margin:  10px; 
-     
+    margin:  auto; 
+    width: 900px; 
     
 }
 
@@ -98,6 +98,6 @@ th,td {
 }
 
 footer {
-    margin:  10px; 
-    
+    margin:  auto; 
+    width: 900px; 
 }
