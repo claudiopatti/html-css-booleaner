@@ -1,17 +1,21 @@
-* {
-    margin: 0;
-
+/* da mettere per rendere tutta la pagina senza margini */
+body {
+    margin: 0; 
+   
 }
 
 main {
+    /* per ridare margine alla pagina  */
     margin:  10px; 
      
     
 }
 
+  /* contenitore con sfondo e immagine sopra */
 .contenitore {
     background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
+    /* altezza */
     height: 150px;
     margin: 0;
     
@@ -20,7 +24,7 @@ main {
 .logo {
     margin-top: 80px;
     width: 250px;
-    height: 100pxs;
+    height: 80px;
 }
 
 .titolo-principale {
@@ -44,6 +48,7 @@ main {
 
 }
 
+   /* riallineamento col margine della lista non ordinata */
 ul {
     padding: 15px;
 }
@@ -51,21 +56,22 @@ ul {
 table {
     border-collapse: collapse;
     width: 100%;
-    
-    
 }
 
+  /* descrizione righe della tabella  */
 th,td {
     width: 1px;
     text-align: left;
 }
 
+   /* titoli tabella  */
 .testa-tabella {
     color: white;
     background-color: #20a9e5;
     
 }
 
+   /* prima riga della tabella  */
 .prima-riga {
     background-color: #b1e5f2;
 }
@@ -99,5 +105,4 @@ th,td {
 
 footer {
     margin:  10px; 
-    
 }
